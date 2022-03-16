@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit',sans-serif;
+}
+
+
+body{
+    height:100vh;
+    background:hsl(212, 45%, 89%) ;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+.main{
+    /* border: 1px red solid; */
+    display: inline-block;
+    background:  hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 300px;
+    margin: 9% auto;
+    height: 490px;
+}
+
+
+img{
+    /* border: 1px red solid; */
+    display:block ;
+    height: 300px;
+    margin:0 auto ;
+    border-radius: 20px; 
+    padding: 0.7rem;
+}
+
+
+.headers{
+    /* border: 1px red solid; */
+    margin-top:0.5rem ;
+    display:inline-block ;
+    font-size: 11px;
+    color:hsl(218, 44%, 22%) ;
+}
+
+
+.descript{
+    /* border: 1px red solid; */
+    font-size: 15px;
+    margin-top:1rem ;
+    color: hsl(220, 15%, 55%) ;
+    
+}
+
+
+
+@media screen and (max-width:600px
+) {
+    .main{
+        /* border: 1px red solid; */
+        margin: 25% auto;
+    }
+}
+
+
